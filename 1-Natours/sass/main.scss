@@ -1,3 +1,12 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/mixins";
+
+@import "base/base";
+@import "base/animations";
+@import "base/utilities";
+@import "base/typography";
+
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #7ed56f;
@@ -54,8 +63,6 @@ body {
     text-align: center;
   }
 }
-
-
 
 .heading-primary {
   color: $color-white;
